@@ -1,0 +1,34 @@
+ body{
+ 	background: black;
+ }
+ nav{
+
+	display: flex;
+	justify-content: center;
+	border-bottom: 5px solid red;
+	padding: 10px
+
+}
+nav ul {
+	/*display flex sirve para colocar horizontalmente las palabras que estan dentro de nav ul en este caso*/
+	display: flex;
+ 	list-style: none;
+ 	margin: 0;
+
+}
+nav ul li  {
+	padding:  0 15px;
+	border-right: 2px solid red;
+
+	
+}
+
+nav a{
+color: red;
+text-decoration: none;
+
+}
+
+h2{
+	color:white;
+}
